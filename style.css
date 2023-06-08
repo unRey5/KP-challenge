@@ -1,48 +1,55 @@
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*, *::before, *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
   margin: 0;
-  padding: 0;
   line-height: 1.5;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
-  font-weight: 400;
 }
 
 .displayWrapper {
   background-color: #23424A;
-  width: 100%;
+  color: #fff;
+  padding: 100px 0;
 }
 
 .displayHeader {
-  max-width: 750px;
-  width: 100%;
-  padding: 4rem 3rem;
+  max-width: 1100px;
+  width: 80%;
+  margin: 0 auto;
   
 }
 
-.displayHeader h1 {
-  font-size: 2.3rem;
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
 }
 
 .texts {
-  color: #fff;
-  width: 80%;
+  width: 60%;
 }
 
 .btn {
-  border: none;
+  display: inline-block;
   background-color: #38CFD9;
-  padding: 1rem 3rem;
+  padding: .6rem 2rem;
   color: #000;
   text-transform: uppercase;
   font-size: .8rem;
+  font-weight: 900;
   border-radius: 2rem;
-  margin-top: 2rem;
+}
+
+.btn:focus, 
+.btn:hover {
+  opacity: .75;
 }
 
