@@ -53,3 +53,38 @@ p {
   opacity: .75;
 }
 
+.card-area {
+  border: 2px solid #23424A;
+  padding: 4rem 5rem;
+  font: Roboto Black;
+  font-size: 1rem;
+}
+
+.card-area h2 {
+  color: #87629A;
+}
+
+.card-area p {
+  color: #3A3A3A;
+}
+
+.card_container {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.card-area2 {
+  font: Roboto Black;
+  font-size: 1rem;
+  background-color: #136C72;
+  color: #fff;
+  padding: 4rem 5rem;
+}
