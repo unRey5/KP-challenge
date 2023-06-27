@@ -24,12 +24,17 @@ nav {
   text-transform: uppercase;
 }
 
+.nav_list a:hover {
+  border: 1px dotted #fff;
+  border-radius: 20px;
+}
+
 .nav_btn {
   border: none;
   border-radius: 20px;
   color: #136c72;
-  padding: .3rem 1rem;
-  font-size: 1rem;
+  /* padding: .3rem 1rem; */
+  font-size: 1.5rem;
 }
 
 
