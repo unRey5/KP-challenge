@@ -5,6 +5,35 @@
   box-sizing: border-box;
 }
 
+nav {
+  background: #136c72;
+  margin: 0;
+  padding: 0.1rem 5rem;
+}
+
+.nav_list {
+  list-style: none;
+  font-size: 1.2rem;
+  display: flex;
+  gap: 20px;
+}
+
+.nav_list a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav_btn {
+  border: none;
+  border-radius: 20px;
+  color: #136c72;
+  padding: .3rem 1rem;
+  font-size: 1rem;
+}
+
+
+
 body {
   margin: 0;
   line-height: 1.5;
