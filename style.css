@@ -3,50 +3,50 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-nav {
-  border: 2px solid yellow;
-  display: flex;
-}
 
 header {
   background-color: #136c72;
-  padding: .7rem 0;
+  padding: .4rem 2rem;
 }
 
 .container {
+  width: 100%;
   margin: 0 auto;
-  width: 80%;
 }
 
 .nav_list {
-  list-style: none;
-  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.nav_list a {
+.nav__item {
   color: #fff;
+  list-style-type: none;
+}
+
+.nav__item a {
   text-decoration: none;
-  text-transform: uppercase;
+  color: #fff;
+  font-size: 1rem;
 }
 
-.nav_list a:hover {
-  border: 1px dotted #fff;
+.nav__btn {
   border-radius: 20px;
+  background: #fff;
+  padding: .2rem 2rem;
 }
 
-.nav_btn {
-  border: none;
-  border-radius: 20px;
+.nav__btn a {
   color: #136c72;
-  font-size: 1.5rem;
+  font-weight: 600;
 }
-
-
 
 body {
-  margin: 0;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
