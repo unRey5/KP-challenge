@@ -13,15 +13,37 @@ header {
   padding: .5rem 0;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* .logo {
+  margin-right: 1rem;
+} */
+
 .container {
+  align-items: center;
   width: 80%;
   margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav_list {
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-left: 10px;
+}
+
+.nav_list_primary {
+  margin: 0 auto;
 }
 
 .nav__item {
@@ -33,6 +55,7 @@ header {
   text-decoration: none;
   color: #fff;
   font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .nav__btn {
@@ -59,7 +82,7 @@ body {
 }
 
 .displayHeader {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -158,4 +181,25 @@ img {
   background-color: #136C72;
   color: #fff;
   padding: 2rem 0;
+}
+
+@media (max-width: 800px) {
+  .displayHeader {
+    /* display: block; */
+    flex-wrap: wrap;
+  }
+
+  .texts,
+  .hero-img {
+    width: 100%;
+  }
+
+  .imgg {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .card_container {
+    flex-wrap: wrap;
+  }
 }
